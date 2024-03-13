@@ -1,3 +1,7 @@
+:root{
+    --TailleFontDeBase : 4vh;
+}
+
 *{
     padding: 0%;
     margin: 0%;
@@ -26,16 +30,57 @@ nav{
     top: 0%;
 }
 main{
-    background: orange;
+    text-align: center;
+    padding: 1%;
+}
+#Presentation{
+    font-size: var(--TailleFontDeBase);
+    padding-top: 3%;
 }
 main aside{
-    background: green;
+    display: flex;
+    padding: 1% 0% 5% 14%
+}
+#APropos{
+    width: 70%;
+    font-size: var(--TailleFontDeBase);
 }
 main section{
-    background: cyan;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 2% 0%;
+}
+#été{
+    background-image: url("../images/backgroung_été.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#hiver{
+    background-image: url("../images/background_hiver.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#collecHiver{
+    padding-top: 5%;
 }
 main section article{
-    background: brown;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    margin: 1%;
+    border: 1vh solid black;
+    border-radius: 16px;
+    font-weight: bold;
+}
+main section article img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+#tableau{
+    justify-content: center;
+    padding: 1%;
 }
 footer{
     display: flex;
