@@ -1,33 +1,48 @@
 :root{
     --TailleFontDeBase : 4vh;
 }
-
 *{
     padding: 0%;
     margin: 0%;
-    min-height: 3em;
+}
+#backAccueil{
+    background-image: url("../images/background_accueil.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
 }
 header{
-    background: red;
     display: flex;
     justify-content: space-between;
+    padding: 1%;
 }
-
 header img{
     width: 10%;
     padding: 1%;
-
 }
-
-header input{
-    
+header form{
+    align-items: center;
 }
-
+header form img{
+    display: flex;
+    align-items: center;
+}
+/* header form input [type="search"]{
+    height: 10vh;
+} */
 nav{
-    background: yellow;
+    display: flex;
+    justify-content: space-evenly;
     text-align: center;
     position: sticky;
     top: 0%;
+    left: 0%;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 2%;
+    font-size: var(--TailleFontDeBase);
 }
 main{
     text-align: center;
@@ -83,8 +98,8 @@ main section article img{
     padding: 1%;
 }
 footer{
+    background-color: blue;
     display: flex;
-    background: blue;
 }
 
 footer iframe{
@@ -94,7 +109,6 @@ footer iframe{
 }
 
 footer aside{
-    background-color: fuchsia;
     width: 40%;
 }
 
