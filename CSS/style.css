@@ -11,6 +11,9 @@
     background-size: cover;
     background-attachment: scroll;
 }
+h2{
+    font-size: var(--TailleFontDeBase);
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -27,9 +30,6 @@ header form img{
     display: flex;
     align-items: center;
 }
-/* header form input [type="search"]{
-    height: 10vh;
-} */
 nav{
     display: flex;
     justify-content: space-evenly;
@@ -37,6 +37,7 @@ nav{
     position: sticky;
     top: 0%;
     left: 0%;
+    /*Je ne sais pas pourquoi le position: sticky; ne marche pas*/
 }
 nav a{
     text-decoration: none;
@@ -132,4 +133,31 @@ footer img{
     border: 1px solid black;
     border-radius: 10px;
     padding: 2%;
+    width: 20%;
+}
+#parcoursNathan{
+    display: flex;
+    font-size: var(--TailleFontDeBase);
+    padding-right: 4%;
+}
+#parcoursNathan img{
+    width: 100%;
+}
+#formNathan{
+    border: 3px solid black;
+    border-radius: 16px;
+    padding: 3%;
+    width: 150%;
+    background-color: lightgray;
+}
+#formNathan input{
+    padding: 2%;
+}
+#formNathan button{
+    border-radius: 15px;
+    height: 4vh;
+    border: none;
+}
+#formNathan label{
+    
 }
