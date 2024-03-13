@@ -102,13 +102,11 @@ footer{
     background-color: blue;
     display: flex;
 }
-
 footer iframe{
     background-color: black;
     padding: 1%;
     width: 60%;
 }
-
 footer aside{
     background-color: black;
     padding: 2%;
@@ -116,7 +114,6 @@ footer aside{
     font-size: var(--TailleFontDeBase);
     color: white;
 }
-
 footer img{
     width: 5%;
 }
@@ -157,7 +154,4 @@ footer img{
     border-radius: 15px;
     height: 4vh;
     border: none;
-}
-#formNathan label{
-    
 }
