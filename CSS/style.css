@@ -11,6 +11,9 @@
     background-size: cover;
     background-attachment: scroll;
 }
+h2{
+    font-size: var(--TailleFontDeBase);
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -114,4 +117,30 @@ footer aside{
 
 footer img{
     width: 20%;
+}
+#parcoursNathan{
+    display: flex;
+    font-size: var(--TailleFontDeBase);
+    padding-right: 4%;
+}
+#parcoursNathan img{
+    width: 100%;
+}
+#formNathan{
+    border: 3px solid black;
+    border-radius: 16px;
+    padding: 3%;
+    width: 150%;
+    background-color: lightgray;
+}
+#formNathan input{
+    padding: 2%;
+}
+#formNathan button{
+    border-radius: 15px;
+    height: 4vh;
+    border: none;
+}
+#formNathan label{
+    
 }
