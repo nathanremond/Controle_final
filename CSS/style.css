@@ -30,9 +30,6 @@ header form img{
     display: flex;
     align-items: center;
 }
-/* header form input [type="search"]{
-    height: 10vh;
-} */
 nav{
     display: flex;
     justify-content: space-evenly;
@@ -40,6 +37,7 @@ nav{
     position: sticky;
     top: 0%;
     left: 0%;
+    /*Je ne sais pas pourquoi le position: sticky; ne marche pas*/
 }
 nav a{
     text-decoration: none;
