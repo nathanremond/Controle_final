@@ -5,9 +5,25 @@
 }
 header{
     background: red;
+    display: flex;
+    justify-content: space-between;
 }
+
+header img{
+    width: 10%;
+    padding: 1%;
+
+}
+
+header input{
+    
+}
+
 nav{
     background: yellow;
+    text-align: center;
+    position: sticky;
+    top: 0%;
 }
 main{
     background: orange;
@@ -22,5 +38,21 @@ main section article{
     background: brown;
 }
 footer{
+    display: flex;
     background: blue;
+}
+
+footer iframe{
+    background-color: black;
+    padding: 1%;
+    width: 60%;
+}
+
+footer aside{
+    background-color: fuchsia;
+    width: 40%;
+}
+
+footer img{
+    width: 20%;
 }
